@@ -243,7 +243,7 @@ extension Store {
             .learn,
             .brainstorm,
             .advice,
-            .anxious,
+            .hamming,
             .philisophical,
             .discover,
             .coach,

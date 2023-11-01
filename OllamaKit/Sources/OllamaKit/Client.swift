@@ -4,7 +4,7 @@ final public class OllamaClient {
     
     let host: URL
     
-    public init(host: String = "127.0.0.1:8080") {
+    public init(host: String = "vibes.lol") {
         self.host = URL(string: "http://\(host)/api")!
     }
     

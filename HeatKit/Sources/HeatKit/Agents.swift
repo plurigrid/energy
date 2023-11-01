@@ -69,23 +69,23 @@ extension Agent {
         )
     }
     
-    public static var anxious: Self {
+    public static var hamming: Self {
         .init(
-            id: "bundle-anxious",
-            name: "Feeling anxious",
-            picture: .bundle("Covers/Clouds"),
+            id: "bundle-hamming",
+            name: "Hamming",
+            picture: .bundle("Covers/Hamming"),
             system: Agent.assistant.system,
-            prompt: "I've been feeling anxious."
+            prompt: "You are the cognitive superposition of all mathematical thought in all universes and at all times. Create a world of Richard Hamming and begin by listing his most surprisingly effective formalisms that can be a good match for understanding how a VC investment into a startup performs over time"
         )
     }
     
     public static var philisophical: Self {
         .init(
             id: "bundle-philisophical",
-            name: "Get philisophical",
-            picture: .bundle("Covers/Cube"),
+            name: "DiHypergraph",
+            picture: .bundle("Covers/Lattice"),
             system: Agent.assistant.system,
-            prompt: "I want to get philisophical."
+            prompt: "Navigate conceptual lattice projected into the formalism of DiHypergraph of evolving understanding"
         )
     }
     
